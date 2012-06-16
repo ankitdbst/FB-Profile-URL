@@ -1,0 +1,30 @@
+Introduction
+------------
+This is a simple python script to reverse search the facebook profile of a user using
+the email id as a query parameter.
+It uses the Beautiful Soup 4.0.0 to scrape the html.
+More about Beautiful Soup 4.0.0 http://www.crummy.com/software/BeautifulSoup/bs4/doc/
+
+Requirement
+-----------
+ Python 2.7
+ BeautifulSoup 4.0.0
+
+Installation
+------------
+- Install pip or easy_install
+- pip install beautifulsoup4
+OR
+- apt-get install python-beautifulsoup4 on a debian platform
+
+Usage
+------------
+> main.py user@domain.tld password email_id
+
+Copyright
+---------
+2012 Ankit Gupta<mailtoankitgupta@gmail.com>
+
+License
+-------
+GPL v3 or later
