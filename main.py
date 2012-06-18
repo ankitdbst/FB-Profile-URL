@@ -1,4 +1,4 @@
-import sys, scraper
+import sys, scraper, webbrowser
 from scraper import Facebook
 
 def main():
@@ -14,8 +14,9 @@ def main():
     # Log the user
     f.login()
     # Fetch profile details
-    profile = f.profile(email)
-    print "Facebook Profile URL:", profile
+    profile_link = f.profile(email)
+    print "Facebook Profile URL:", profile_link
+    webbrowser.open(profile_link);
 
 def usage():
     '''
